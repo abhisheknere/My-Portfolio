@@ -13,7 +13,7 @@ const About = () => {
     {
       icon: <Code className="w-6 h-6" />,
       title: 'Full-Stack Development',
-      description: 'Proficient in modern web technologies including React, Next.js, Node.js, and cloud platforms.'
+      description: 'Proficient in modern web technologies including React, Next.js, Node.js, Express.js, and cloud platforms.'
     },
     {
       icon: <Cpu className="w-6 h-6" />,

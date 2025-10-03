@@ -13,15 +13,17 @@ const Skills = () => {
       title: 'Frontend Development',
       skills: [
         { name: 'React/Next.js', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Tailwind CSS', level: 92 },
-        { name: 'Vue.js', level: 85 },
+        { name: 'JavaScript', level: 90 },
+        { name: 'Python | PyQt', level: 88 },
+        { name: 'Bootstrap | Tailwind CSS', level: 92 },
+        { name: 'HTML/CSS', level: 90 },
       ]
     },
     {
       title: 'Backend Development',
       skills: [
         { name: 'Node.js', level: 88 },
+        { name: 'Express.js', level: 87 },
         { name: 'Python', level: 92 },
         { name: 'PostgreSQL', level: 85 },
         { name: 'MongoDB', level: 80 },
@@ -30,17 +32,17 @@ const Skills = () => {
     {
       title: 'AI & Machine Learning',
       skills: [
-        { name: 'TensorFlow', level: 87 },
+        { name: 'Deep Learning', level: 90 },
         { name: 'PyTorch', level: 83 },
         { name: 'OpenAI APIs', level: 90 },
-        { name: 'Computer Vision', level: 82 },
+        { name: 'LLM', level: 88 },
       ]
     },
     {
       title: 'Tools & Platforms',
       skills: [
-        { name: 'AWS/Cloud', level: 85 },
-        { name: 'Docker', level: 88 },
+        { name: 'Visual Studio Code', level: 95 },
+        { name: 'Docker', level: 80 },
         { name: 'Git/GitHub', level: 95 },
         { name: 'Vercel/Netlify', level: 90 },
       ]

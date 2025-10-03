@@ -103,7 +103,7 @@ const Contact = () => {
               >
                 <h4 className="font-semibold mb-2 text-white">Quick Response</h4>
                 <p className="text-gray-300 text-sm">
-                  I typically respond to all messages within 24 hours. For urgent matters, 
+                  I typically respond to all messages within 24 hours. For urgent matters, feel free to contact me directly on phone. 
                 </p>
               </motion.div>
             </div>

@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { ExternalLink, Github, Bot, Brain, Code, Zap } from 'lucide-react';
+import { ExternalLink, Github, Bot, Brain, Code, Zap, Home, LineChart } from 'lucide-react';
 
 const Projects = () => {
   const ref = useRef(null);
@@ -15,10 +15,30 @@ const Projects = () => {
       description:
         'An intelligent AI assistant built with advanced natural language processing capabilities. Features voice recognition, contextual understanding, and seamless integration with various APIs.',
       icon: <Bot className="w-8 h-8" />,
-      technologies: ['Python', 'TensorFlow', 'React', 'Node.js', 'OpenAI API'],
+      technologies: ['Python', 'PyQt', 'Groq API', 'Cohere API', 'TTS/STT'],
       github: 'https://github.com/abhisheknere/jarvisai',
       live: 'https://jarvisai-demo.vercel.app',
       gradient: 'from-blue-500 to-cyan-500',
+    },
+    {
+      title: 'Real Estate Website',
+      description:
+        'A modern real estate platform featuring property listings, advanced search filters, and interactive maps. Built with a responsive design for optimal viewing on all devices.',
+      icon: <Home className="w-8 h-8" />,
+      technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'],
+      github: 'https://github.com/abhisheknere/real-estate',
+      live: 'https://real-estate-demo.vercel.app',
+      gradient: 'from-purple-500 to-pink-500',
+    },
+    {
+      title: 'Stock Price Analysis Dashboard',
+      description:
+        'An interactive dashboard to visualize stock prices, candlestick charts, moving averages, and daily returns.',
+      icon: <LineChart className="w-8 h-8" />,
+      technologies: ['Python', 'pandas', 'yfinance', 'matplotlib'],
+      github: 'https://github.com/abhisheknere/stock-analysis',
+      live: 'https://stock-analysis-demo.vercel.app',
+      gradient: 'from-green-500 to-emerald-500',
     },
   ];
 
